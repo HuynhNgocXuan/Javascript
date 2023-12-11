@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký / Đăng nhập</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="icon" href="data:image/png;base64,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">
+</head>
+<body>
+    <div class="main">
+
+        <form action="" method="POST" id="form-1" class="form">
+            <h3 class="heading">Thành viên đăng ký</h3>
+            <p class="desc">Cùng nhau học lập trình miễn phí tại F8 ❤️</p>
+
+            <div class="spacer"></div>
+
+            <div class="form-group">
+                <label for="fullname" class="form-label">Tên đầy đủ</label>
+                <input class="form-control" placeholder="VD: Huỳnh Ngọc Xuân" type="text" id="fullname" name="fullname">
+                <span class="form-message"></span>
+            </div>
+            
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-control" placeholder="VD: xuanhuynh@gmail.com" type="email" id="email" name="email">
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="form-label">Mật khẩu</label>
+                <input class="form-control" placeholder="Nhập mật khẩu" type="password" id="password" name="password">
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                <input class="form-control" placeholder="Nhập lại mật khẩu" type="password" id="password_confirmation" name="password_confirmation">
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="avatar" class="form-label">Ảnh đại diện</label>
+                <input class="form-control"  type="file" id="avatar" name="avatar">
+                <span class="form-message"></span>
+            </div>
+            
+            <div class="form-group">
+                <label for="province" class="form-label">Tỉnh TP</label>
+                <select class="form-control" id="province" name="province">
+                    <option value="">-- Chọn Tỉnh/TP --</option>
+                    <option value="hni">Hà Nội</option>
+                    <option value="hpg">Hải Phòng</option>
+                </select>
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password_confirmation" class="form-label">Giới tính</label>
+                <div>
+                    <input class="form-control" type="radio" value="male" name="gender">
+                    Nam
+                </div>
+                <div>
+                    <input class="form-control" type="radio" value="female" name="gender">
+                    Nữ
+                </div>
+                <div>
+                    <input class="form-control" type="radio" value="other" name="gender">
+                    Khác
+                </div>
+                <span class="form-message"></span>
+            </div>
+
+            <button class="form-submit">Đăng ký</button>
+        </form>
+    </div>
+    
+    <script src="./validator1.js"></script>
+
+    <script>
+
+        // Mong muốn của chúng ta
+        Validator({
+            form: '#form-1',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.isRequired('#fullname', 'Vui lòng nhập đầy đủ tên của bạn'),
+                Validator.isRequired('#email'),
+                Validator.isRequired('#avatar'),
+                Validator.isEmail('#email'),
+                Validator.isPassword('#password', 8),
+                Validator.isRequired('#password_confirmation'),
+                Validator.isConfirmPassword('#password_confirmation', function() {
+                    return document.querySelector('#form-1 #password').value;
+                }, 'Mật khẩu nhập lại không chính xác'),
+                Validator.isRequired('#province'),
+                Validator.isRequired ('input[name="gender"]')
+            ],
+            onSubmit: function(data) {
+                // Call API
+                console.warn(data);
+            }
+        });
+    </script>
+</body>
+</html>
